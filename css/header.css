@@ -18,8 +18,10 @@
 /* Logo Styles */
 .logo {
     display: block;
-    padding: 17.5px 0;
-    /* Формує висоту хедера на мобільних пристроях */
+    padding-top: 16px;
+    /* Точно 16px для мобілки */
+    padding-bottom: 16px;
+    /* Точно 16px для мобілки */
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -56,8 +58,10 @@
     }
 
     .logo {
-        padding: 24px 0;
+        padding-top: 24px;
+        padding-bottom: 24px;
         margin-right: 120px;
+        /* 120px для планшета */
     }
 
     .nav-list {
@@ -123,7 +127,8 @@
 /* Desktop Styles (1158px+) */
 @media screen and (min-width: 1158px) {
     .logo {
-        padding: 16px 0;
+        margin-right: 76px;
+        /* Перевизначаємо 120px на 76px для десктопа */
     }
 
     .address-list {
