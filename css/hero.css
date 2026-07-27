@@ -1,16 +1,25 @@
 /* --- Mobile First (Base 320px+) --- */
 .hero {
     background-color: #2e2f42;
-    padding: 112px 0;
+    padding: 72px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        image-set(url('../images/hero-bg-mobile.jpg') 1x,
-            url('../images/hero-bg-mobile@2x.jpg') 2x);
+        url('../images/hero-bg-mobile.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 428px;
+    max-width: 320px;
     margin: 0 auto;
+}
+
+/* Mobile Retina 2x */
+@media screen and (min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url('../images/hero-bg-mobile@2x.jpg');
+    }
 }
 
 .hero-title {
@@ -55,8 +64,17 @@
         max-width: 768px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            image-set(url('../images/hero-bg-tablet.jpg') 1x,
-                url('../images/hero-bg-tablet@2x.jpg') 2x);
+            url('../images/hero-bg-tablet.jpg');
+    }
+
+    /* Tablet Retina 2x */
+    @media screen and (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url('../images/hero-bg-tablet@2x.jpg');
+        }
     }
 
     .hero-title {
@@ -74,8 +92,17 @@
         max-width: 1440px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            image-set(url('../images/hero-bg-desktop.jpg') 1x,
-                url('../images/hero-bg-desktop@2x.jpg') 2x);
+            url('../images/hero-bg-desktop.jpg');
+    }
+
+    /* Desktop Retina 2x */
+    @media screen and (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url('../images/hero-bg-desktop@2x.jpg');
+        }
     }
 
     .hero-title {

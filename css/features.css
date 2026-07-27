@@ -9,9 +9,9 @@
     gap: 72px;
 }
 
-.features-icon-container {
+.features-thumb {
     display: none;
-    /* Приховуємо іконки на мобільній версії */
+    /* Приховуємо іконки на мобільній та планшетній версіях */
 }
 
 .features-subtitle {
@@ -64,7 +64,7 @@
         width: calc((100% - 72px) / 4);
     }
 
-    .features-icon-container {
+    .features-thumb {
         display: flex;
         align-items: center;
         justify-content: center;

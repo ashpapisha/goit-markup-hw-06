@@ -37,12 +37,12 @@ img {
     height: auto;
 }
 
-/* Base Mobile Container (320px+) */
 .container {
-    min-width: 320px;
-    max-width: 428px;
-    margin: 0 auto;
-    padding: 0 16px;
+    max-width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Tablet Container (768px+) */
