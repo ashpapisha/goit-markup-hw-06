@@ -40,6 +40,8 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    text-align: left;
+    /* ВИПРАВЛЕНО: Текст вирівняно по лівому краю */
 }
 
 /* Social block */
@@ -218,6 +220,7 @@
     }
 
     .footer-social {
-        margin-right: 80px;
+        margin-right: 83px;
+        /* ВИПРАВЛЕНО: Змінено з 80px на 83px */
     }
 }

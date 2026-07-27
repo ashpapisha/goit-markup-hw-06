@@ -4,8 +4,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    padding: 72px 0 40px 0;
-    /* ВИПРАВЛЕНО: прибрали 16px з боків, щоб не дублювати відступи контейнера */
+    padding: 24px 24px 40px 24px;
     background-color: #ffffff;
     z-index: 999;
 
@@ -28,14 +27,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 48px;
 }
 
 .mobile-menu-close-btn {
     position: absolute;
-    top: 24px;
-    /* ВИПРАВЛЕНО: змістили з -48px на 24px від краю */
-    right: 24px;
-    /* ВИПРАВЛЕНО: тепер кнопка чітко за 24px від правого краю */
+    top: 0;
+    right: 0;
     width: 24px;
     height: 24px;
     border-radius: 50%;
