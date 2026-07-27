@@ -122,7 +122,7 @@
 
 /* Desktop Styles (1158px+) */
 @media screen and (min-width: 1158px) {
-.logo {
+    .logo {
         padding: 16px 0;
     }
 
